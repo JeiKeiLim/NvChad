@@ -18,4 +18,11 @@ M.plugins = require "custom.plugins"
 -- check core.mappings for table structure
 M.mappings = require "custom.mappings"
 
+M.options = {
+  nvChad = {
+    update_url = "https://github.com/JeiKeiLim/NvChad",
+    update_branch = "custom",
+  },
+}
+
 return M
