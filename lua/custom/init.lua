@@ -18,3 +18,5 @@ for _, plugin in pairs(enable_providers) do
 end
 
 vim.opt.relativenumber = true
+vim.g.copilot_assume_mapped = true
+

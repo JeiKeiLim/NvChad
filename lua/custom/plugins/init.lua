@@ -40,6 +40,9 @@ return {
       require "custom.plugins.null-ls"
     end,
   },
+  ["github/copilot.vim"] = {
+    branch = "release",
+  },
 
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
