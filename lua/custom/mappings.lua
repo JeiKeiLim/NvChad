@@ -24,6 +24,25 @@ M.tabufline = {
   },
 }
 
+M.nvterm = {
+  t = {
+    ["<C-p>"] = {
+      function()
+        require("nvterm.terminal").toggle "horizontal"
+      end,
+      "toggle floating term",
+    },
+  },
+  n = {
+    ["<C-p>"] = {
+      function()
+        require("nvterm.terminal").toggle "horizontal"
+      end,
+      "toggle floating term",
+    },
+  },
+}
+
 -- more keybinds!
 
 return M

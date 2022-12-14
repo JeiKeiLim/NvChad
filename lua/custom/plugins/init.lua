@@ -43,6 +43,7 @@ return {
   ["github/copilot.vim"] = {
     branch = "release",
   },
+  ["folke/which-key.nvim"] = { disable = false }
 
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
