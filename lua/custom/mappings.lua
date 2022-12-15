@@ -28,7 +28,7 @@ M.nvterm = {
   t = {
     ["<C-p>"] = {
       function()
-        require("nvterm.terminal").toggle "horizontal"
+        require("nvterm.terminal").toggle "float"
       end,
       "toggle floating term",
     },
@@ -36,7 +36,7 @@ M.nvterm = {
   n = {
     ["<C-p>"] = {
       function()
-        require("nvterm.terminal").toggle "horizontal"
+        require("nvterm.terminal").toggle "float"
       end,
       "toggle floating term",
     },
