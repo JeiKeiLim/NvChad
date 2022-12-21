@@ -43,7 +43,12 @@ return {
   ["github/copilot.vim"] = {
     branch = "release",
   },
-  ["folke/which-key.nvim"] = { disable = false }
+  ["folke/which-key.nvim"] = { 
+    disable = false
+  },
+  ["NvChad/nvterm"] = {
+    override_options = overrides.nvterm,
+  }
 
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
