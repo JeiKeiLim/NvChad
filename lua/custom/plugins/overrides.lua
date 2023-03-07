@@ -28,6 +28,9 @@ M.mason = {
     "black",
     "pyright",
     "python-lsp-server",
+
+    -- cpp dev stuff
+    "clangd",
   },
 }
 
