@@ -7,6 +7,7 @@ M.treesitter = {
     "html",
     "css",
     "c",
+    "cpp",
     "python",
   },
 }
@@ -31,6 +32,8 @@ M.mason = {
 
     -- cpp dev stuff
     "clangd",
+    "clang-format",
+    "cpplint",
   },
 }
 

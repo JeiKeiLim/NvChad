@@ -13,6 +13,7 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
+  b.diagnostics.cpplint.with { diagnostics_format = "#{m} [#{c}]" },
   b.formatting.rustfmt,
 
   -- python
