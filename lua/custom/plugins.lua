@@ -1,4 +1,4 @@
-local overrides = require "custom.plugins.overrides"
+local overrides = require "custom.configs.overrides"
 
 return {
 
@@ -8,7 +8,7 @@ return {
   ["neovim/nvim-lspconfig"] = {
     config = function()
       require "plugins.configs.lspconfig"
-      require "custom.plugins.lspconfig"
+      require "custom.configs.lspconfig"
     end,
   },
 
@@ -37,13 +37,13 @@ return {
   ["jose-elias-alvarez/null-ls.nvim"] = {
     after = "nvim-lspconfig",
     config = function()
-      require "custom.plugins.null-ls"
+      require "custom.configs.null-ls"
     end,
   },
   ["github/copilot.vim"] = {
     branch = "release",
   },
-  ["folke/which-key.nvim"] = { 
+  ["folke/which-key.nvim"] = {
     disable = false
   },
   ["NvChad/nvterm"] = {
