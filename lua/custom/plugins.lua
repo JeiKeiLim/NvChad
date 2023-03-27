@@ -48,6 +48,7 @@ local plugins = {
   {
     "github/copilot.vim",
     branch = "release",
+    lazy = false,
   },
   {
     "folke/which-key.nvim",
